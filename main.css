@@ -9,3 +9,43 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+.rainbow-color {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #f00, #ffa500, #ff0, #00bc3f, #06f, #8a2be2, #d300c9);
+}
+#red {
+  border-top-color: #f00;
+}
+
+#orange {
+  border-top-color: #ffa500;
+}
+
+#yellow {
+  border-top-color: #ff0;
+}
+
+#green {
+  border-top-color: #00bc3f;
+}
+
+#blue {
+  border-top-color: #06f;
+}
+
+#indigo {
+  border-top-color: #8a2be2;
+}
+
+#violet {
+  border-top-color: #d300c9;
+}
+
+/* Additional CSS styling to make the rainbow divs visible */
+div {
+  height: 50px;
+  width: 50%;
+  border-top: 20px solid transparent;
+}
